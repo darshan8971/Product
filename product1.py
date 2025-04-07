@@ -10,7 +10,7 @@ Original file is located at
 import pickle
 ##!pip install streamlit
 
-model = pickle.load(open('product.pkl','rb'))
+model = pickle.load(open('/mount/src/product/product.pkl','rb'))
 model
 
 import streamlit as st
